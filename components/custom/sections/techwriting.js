@@ -13,9 +13,9 @@ const TechnicalWriting = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h2 className="title">Technical Writing</h2>
+              <h2 className="title">MARKETS</h2>
               <h6 className="subtitle">
-                Check out these well-written articles by Mr. Mars.
+                Check live market updates here. 
               </h6>
             </Col>
           </Row>

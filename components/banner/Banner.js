@@ -9,6 +9,7 @@ import { Canvas } from "@react-three/fiber";
 import CameraControls from "../CameraControls";
 import Sphere from "../Sphere";
 
+
 const Banner = () => {
   const particlesInit = async (main) => {
     console.log(main);
@@ -59,7 +60,7 @@ const Banner = () => {
         },
         particles: {
           color: {
-            value: ["#ffffff", "##afc9ff", "#c7d8ff",  "#fff4f3", "#ffe5cf", "#ffd9b2", "#ffc78e", "#ffa651"],
+            value: ["#ffffff", "#ff8c00", "#ff8c00",  "#ff8c00", "#ffffff", "#ff8c00"],
           },
           links: {
             color: "#ffffff",
@@ -113,20 +114,19 @@ const Banner = () => {
         <Row className="mt-5">
           <Col lg="6" className="align-self-center">
             <h1>
-            WE BRING WEB3 CLOSER TO EARTH
+            CRYPTO DEALS THAT ARE OUT OF THIS WORLD
             </h1>
             <a
               href="#contacts"
               className="btn btn-outline-light m-r-20 btn-md m-t-30 mt-5"
             >
-              Contact us
+              Contacts
             </a>
           </Col>
           
           <Col className="mt-5 pt-5">
           <div style={{ width: "100%", height: "50vh" }}>
 
-          
           <Canvas>
             <CameraControls />
             <directionalLight intensity={1} />

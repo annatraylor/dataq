@@ -97,9 +97,9 @@ const Articles = (props) => {
         <Container id="tech">
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">TECHNICAL WRITING</h1>
+              <h1 className="title font-bold">MARKETS</h1>
               <h6 className="subtitle">
-              Check out these articles by Mr. Mars.
+              Check live market updates here...
               </h6>
             <Carousel activeIndex={activeIndex} next={next} previous={previous}>
               <CarouselIndicators className="carousel-indicators"

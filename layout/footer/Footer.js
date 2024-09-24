@@ -16,8 +16,8 @@ const Footer = () => {
               </Link>
             </p> */}
             <p>
-              <Link href="mailto:m3mars@proton.com">
-                <a className="link">behindthescenesdefi@gmail.com</a>
+              <Link href="mailto:dataq.team@gmail.com">
+                <a className="link">dataq.team@gmail.com</a>
               </Link>
             </p>
           </Col>

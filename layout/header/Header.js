@@ -38,7 +38,7 @@ const Header = () => {
               className="hover-dropdown ml-auto"
               id="h6-info"
             >
-              <Nav navbar className="ml-auto">
+              <Nav navbar className="m-auto">
                 <NavItem>
                   <Link href="#about">
                   <a className="nav-link">About</a>
@@ -46,17 +46,12 @@ const Header = () => {
                 </NavItem>
                 <NavItem>
                   <Link href="#whitepapers">
-                    <a className="nav-link">Whitepapers</a>
+                    <a className="nav-link">Bonds</a>
                   </Link>
                 </NavItem>
                 <NavItem>
                   <Link href="#webdev">
-                    <a className="nav-link">Web Development</a>
-                  </Link>
-                </NavItem>
-                <NavItem>
-                  <Link href="#tech">
-                  <a className={"nav-link"}>Technical Writing</a>
+                    <a className="nav-link">Market</a>
                   </Link>
                 </NavItem>
                 <NavItem>

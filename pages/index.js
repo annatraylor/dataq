@@ -5,8 +5,8 @@ export default function Basic() {
   return (
     <div>
       <Head>
-        <title>Mr&MrsMars</title>
-        <meta name="description" content="A website for the company Mr&MrsMars" />
+        <title>DataQ</title>
+        <meta name="description" content="A website for the company DataQ" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Components />

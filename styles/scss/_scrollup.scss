@@ -10,12 +10,12 @@
   z-index: 20;
 }
 .icon-style{
-  background-color: #B99772;
-  border: 3px solid #000;
+  background-color: #FF7518;
+  border: 3px solid #fff;
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  color: #000;
+  color: #fff;
   cursor: pointer;
   animation: movebtn 3s ease-in-out infinite;
   transition: all .5s ease-in-out;
@@ -25,6 +25,7 @@
   background: #000;
   background-color: #ffffff;
   border: 2px solid #000000;
+  color: #000000;
 }
 @keyframes movebtn {
   0%{

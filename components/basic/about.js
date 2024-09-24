@@ -61,7 +61,7 @@ const About = (props) => {
               onClick={toggle.bind(null)}
               className="btn btn-outline-light m-1"
             >
-              TECHNICAL WRITING
+              CRYPTO BONDS
             </a>
             <Modal
               size="lg"
@@ -71,7 +71,7 @@ const About = (props) => {
             >
               <ModalHeader className="bg-black" toggle={toggle.bind(null)}>Technical Writing</ModalHeader>
               <ModalBody className="bg-black text-white">
-              Meet our technical writer Mr. Mars. Do you need informative and enticing Medium articles, or a detailed whitepaper? Connect with Mr. Mars on his Twitter.
+              Here on the website you can find wallet connection and bond minting page. But you can always educate yourself with our news feed on Twitter.
               </ModalBody>
               <ModalFooter className="bg-black">
                 <a href="https://twitter.com/DeFiDiscovered" target="_blank" rel="noreferrer" className="btn btn-outline-light" onClick={toggle.bind(null)}>
@@ -87,7 +87,7 @@ const About = (props) => {
               onClick={toggle1.bind(null)}
               className="btn btn-outline-light m-1"
             >
-              WEB DESIGN
+              TECHNICAL SUPPORT
             </a>
             <Modal
               size="lg"
@@ -97,11 +97,10 @@ const About = (props) => {
             >
               <ModalHeader className="bg-black" toggle={toggle1.bind(null)}>Web Design</ModalHeader>
               <ModalBody className="bg-black text-white">
-              Do you need a nice website, a cool landing page, or maybe your website just happened to have some issues?
-                Connect with Web3Dev.
+              Meet our technical support on telegram. Ask anything anywhere anytime.
               </ModalBody>
               <ModalFooter className="bg-black">
-                <a href="mailto:dev@annagradient.com" target="_blank" rel="noreferrer"  className="btn btn-outline-light"  onClick={toggle1.bind(null)}>
+                <a href="#" target="_blank" rel="noreferrer"  className="btn btn-outline-light"  onClick={toggle1.bind(null)}>
                   Connect
                 </a>
                 <a className="btn btn-outline-light" onClick={toggle1.bind(null)}>
@@ -114,7 +113,7 @@ const About = (props) => {
               onClick={toggle2.bind(null)}
               className="btn btn-outline-light m-1"
             >
-              GRAPHIC DESIGN
+              OUR WHITEPAPER
             </a>
             <Modal
               size="lg"
@@ -124,11 +123,10 @@ const About = (props) => {
             >
               <ModalHeader className="bg-black" toggle={toggle2.bind(null)}>Graphic Design</ModalHeader>
               <ModalBody className="bg-black text-white">
-                Are you in need to make your new whitepaper eye-catching, add some graphics to your website, or design 
-                a unique logo? Text Mrs. Mars ASAP!
+                We want to be as sincere as we only can. Therefore, we present you our whitepaper where you can find out more about our ideas and plans.
               </ModalBody>
               <ModalFooter className="bg-black">
-                <a href="https://www.instagram.com/anna_gradient/" target="_blank" rel="noreferrer" className="btn btn-outline-light" onClick={toggle1.bind(null)}>
+                <a href="/models/Keyvian-Whitepaper.pdf/" target="_blank" rel="noreferrer" className="btn btn-outline-light" onClick={toggle1.bind(null)}>
                   Connect
                 </a>
                 <a className="btn btn-outline-light" target="_blank" onClick={toggle2.bind(null)}>
